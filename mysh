@@ -1,0 +1,2 @@
+make clean
+./configure   --with-debug --add-module=/home/wgw/nginx-1.11.3/src/ngx_http_mytest_module  --with-http_ssl_module;make;cd objs
