@@ -1,448 +1,79 @@
-2018/11/14 16:10:15 [emerg] 24373#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
-2018/11/14 16:12:08 [emerg] 24450#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
-2018/11/14 16:12:21 [notice] 24455#0: signal process started
-2018/11/14 16:13:22 [error] 24472#0: *2 open() "/home/wgw/nginx-1.11.3/html/favicon.ico" failed (2: No such file or directory), client: 192.168.3.2, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.3.4"
-2018/11/14 16:14:10 [error] 24472#0: *2 open() "/home/wgw/nginx-1.11.3/html/favicon.ico" failed (2: No such file or directory), client: 192.168.3.2, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.3.4"
-2018/11/14 16:26:14 [notice] 27444#0: signal process started
-2018/11/14 16:26:14 [alert] 27444#0: kill(24466, 15) failed (1: Operation not permitted)
-2018/11/14 16:26:21 [notice] 27451#0: signal process started
-2018/11/15 14:24:29 [notice] 39344#0: signal process started
-2018/11/15 14:24:29 [alert] 39344#0: kill(27454, 15) failed (1: Operation not permitted)
-2018/11/15 14:24:36 [notice] 39351#0: signal process started
-2018/11/15 14:24:38 [emerg] 39353#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
-2018/11/16 16:24:51 [notice] 46352#0: signal process started
-2018/11/16 16:24:51 [alert] 46352#0: kill(39356, 15) failed (1: Operation not permitted)
-2018/11/16 16:24:57 [notice] 46359#0: signal process started
-2018/11/16 16:25:01 [emerg] 46360#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
-2018/11/16 16:44:38 [notice] 46668#0: signal process started
-2018/11/16 16:44:38 [alert] 46668#0: kill(46404, 15) failed (1: Operation not permitted)
-2018/11/16 16:44:44 [notice] 46675#0: signal process started
-2018/11/16 16:44:48 [emerg] 46676#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
-2018/11/16 16:55:12 [notice] 46856#0: signal process started
-2018/11/16 16:55:12 [alert] 46856#0: kill(46679, 15) failed (1: Operation not permitted)
-2018/11/16 16:55:19 [notice] 46863#0: signal process started
-2018/11/16 16:55:29 [emerg] 46883#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
-2018/11/16 17:30:18 [emerg] 47490#0: unknown directive "Location/test" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 17:30:27 [emerg] 47505#0: unknown directive "Location/test" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 17:31:13 [emerg] 47510#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 17:33:36 [emerg] 47539#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 17:33:39 [emerg] 47541#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 17:34:05 [emerg] 47546#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 17:34:13 [emerg] 47548#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 17:34:31 [emerg] 47559#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:54
-2018/11/16 17:35:58 [notice] 47571#0: signal process started
-2018/11/16 17:36:12 [emerg] 47574#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:59
-2018/11/16 17:36:26 [emerg] 47587#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:59
-2018/11/16 17:36:38 [emerg] 47590#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 17:36:52 [emerg] 47593#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 17:39:00 [emerg] 47612#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 17:39:42 [emerg] 47623#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 17:41:44 [emerg] 47649#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 17:44:20 [emerg] 47683#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 17:44:38 [emerg] 47694#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 17:46:02 [emerg] 47759#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 17:46:05 [emerg] 47761#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 17:48:24 [emerg] 47872#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 17:48:48 [emerg] 47883#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 17:49:20 [notice] 47897#0: signal process started
-2018/11/16 17:51:32 [emerg] 52798#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 21:08:39 [emerg] 53346#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 21:09:04 [notice] 53376#0: signal process started
-2018/11/16 21:28:29 [emerg] 54003#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 21:44:22 [emerg] 54161#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 21:54:22 [emerg] 56805#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 21:55:35 [emerg] 56865#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/16 22:20:01 [emerg] 57143#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/17 02:34:01 [emerg] 60521#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/17 02:34:04 [emerg] 60524#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/17 02:36:57 [emerg] 60529#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/17 02:37:29 [emerg] 60557#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/17 02:42:11 [emerg] 60616#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/17 02:43:55 [emerg] 60638#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/17 02:44:13 [emerg] 60644#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/17 02:48:17 [emerg] 60683#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/17 02:48:30 [emerg] 60693#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/17 02:48:52 [emerg] 60696#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/17 03:07:53 [emerg] 63550#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/17 03:31:59 [emerg] 69011#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/17 03:43:17 [emerg] 69113#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/17 04:37:40 [emerg] 69854#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/17 04:47:08 [emerg] 69950#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/17 04:51:05 [emerg] 70011#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/17 16:04:52 [emerg] 70473#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/17 16:05:23 [emerg] 70485#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/17 16:53:42 [emerg] 71152#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 00:39:04 [emerg] 2356#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 02:12:09 [emerg] 4003#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 02:18:52 [emerg] 4064#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 02:25:49 [emerg] 4249#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
-2018/11/18 02:26:42 [emerg] 4275#0: unknown directive "mytest" in /home/wgw/nginx-1.11.3/conf/nginx.conf:56
-2018/11/18 02:27:25 [emerg] 4280#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 02:27:46 [emerg] 4292#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 02:27:49 [emerg] 4294#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 02:27:49 [emerg] 4296#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 02:27:50 [emerg] 4298#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 02:27:50 [emerg] 4300#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 02:27:51 [emerg] 4302#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 02:27:51 [emerg] 4304#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 02:27:52 [emerg] 4306#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 02:28:13 [emerg] 4349#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 02:28:38 [emerg] 4353#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 02:28:50 [emerg] 4364#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 02:29:35 [notice] 4384#0: signal process started
-2018/11/18 02:29:35 [alert] 4384#0: kill(4368, 15) failed (1: Operation not permitted)
-2018/11/18 02:29:38 [notice] 4386#0: signal process started
-2018/11/18 02:34:15 [emerg] 4450#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/18 02:34:15 [emerg] 4450#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/18 02:34:15 [emerg] 4450#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/18 02:34:15 [emerg] 4450#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/18 02:34:15 [emerg] 4450#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/18 02:34:15 [emerg] 4450#0: still could not bind()
-2018/11/18 02:34:34 [notice] 4465#0: signal process started
-2018/11/18 02:34:34 [alert] 4465#0: kill(4413, 15) failed (1: Operation not permitted)
-2018/11/18 02:34:37 [notice] 4467#0: signal process started
-2018/11/18 02:36:43 [notice] 4515#0: signal process started
-2018/11/18 02:37:48 [emerg] 4527#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/18 02:37:48 [emerg] 4527#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/18 02:37:48 [emerg] 4527#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/18 02:37:48 [emerg] 4527#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/18 02:37:48 [emerg] 4527#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/18 02:37:48 [emerg] 4527#0: still could not bind()
-2018/11/18 02:38:36 [notice] 4534#0: signal process started
-2018/11/18 02:39:18 [notice] 4559#0: signal process started
-2018/11/18 02:41:50 [notice] 4627#0: signal process started
-2018/11/18 03:16:14 [emerg] 5231#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 03:16:17 [emerg] 5233#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 03:24:31 [emerg] 5503#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 03:48:40 [emerg] 5852#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 03:49:05 [emerg] 5863#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 03:49:36 [emerg] 5869#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 03:50:33 [notice] 5899#0: signal process started
-2018/11/18 03:51:42 [error] 5919#0: *1 open() "/home/wgw/nginx-1.11.3/html/test" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /test HTTP/1.1", host: "192.168.31.202"
-2018/11/18 03:52:40 [emerg] 5935#0: unknown directive "Location/test" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 03:52:59 [emerg] 5947#0: unknown directive "Location/test" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 03:53:16 [emerg] 5950#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/18 03:53:41 [notice] 5953#0: signal process started
-2018/11/18 03:58:24 [notice] 6079#0: signal process started
-2018/11/18 03:58:24 [error] 6079#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/18 13:27:15 [error] 6090#0: *3 open() "/home/wgw/nginx-1.11.3/html/tets" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /tets HTTP/1.1", host: "192.168.31.202"
-2018/11/18 13:28:39 [notice] 6992#0: signal process started
-2018/11/18 13:28:50 [notice] 7017#0: signal process started
-2018/11/18 21:21:11 [emerg] 9578#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/18 21:21:11 [emerg] 9578#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/18 21:21:11 [emerg] 9578#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/18 21:21:11 [emerg] 9578#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/18 21:21:11 [emerg] 9578#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/18 21:21:11 [emerg] 9578#0: still could not bind()
-2018/11/18 21:29:56 [notice] 9767#0: signal process started
-2018/11/18 22:24:53 [emerg] 10428#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/19 09:49:31 [emerg] 12384#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/19 09:50:11 [emerg] 12419#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/19 09:50:11 [emerg] 12419#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/19 09:50:11 [emerg] 12419#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/19 09:50:11 [emerg] 12419#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/19 09:50:11 [emerg] 12419#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/19 09:50:11 [emerg] 12419#0: still could not bind()
-2018/11/19 09:50:32 [notice] 12427#0: signal process started
-2018/11/19 11:38:15 [emerg] 17327#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/19 11:38:15 [emerg] 17327#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/19 11:38:15 [emerg] 17327#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/19 11:38:15 [emerg] 17327#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/19 11:38:15 [emerg] 17327#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/19 11:38:15 [emerg] 17327#0: still could not bind()
-2018/11/19 11:38:32 [notice] 17334#0: signal process started
-2018/11/19 11:38:48 [notice] 17353#0: signal process started
-2018/11/19 11:40:15 [notice] 17401#0: signal process started
-2018/11/19 16:52:55 [notice] 18764#0: signal process started
-2018/11/19 16:52:55 [alert] 18764#0: kill(18745, 15) failed (1: Operation not permitted)
-2018/11/19 16:53:02 [notice] 18766#0: signal process started
-2018/11/19 16:53:04 [notice] 18767#0: signal process started
-2018/11/19 16:53:04 [error] 18767#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/21 02:22:15 [emerg] 21647#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/21 02:26:50 [emerg] 21727#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/22 15:46:51 [emerg] 23577#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/22 17:10:55 [emerg] 24739#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/22 17:12:43 [emerg] 24763#0: unknown directive "Location" in /home/wgw/nginx-1.11.3/conf/nginx.conf:58
-2018/11/23 14:35:20 [notice] 30615#0: signal process started
-2018/11/23 14:35:20 [alert] 30615#0: kill(30604, 15) failed (1: Operation not permitted)
-2018/11/23 14:35:23 [notice] 30617#0: signal process started
-2018/11/23 14:36:34 [emerg] 30648#0: unknown directive "User" in /home/wgw/nginx-1.11.3/conf/nginx.conf:3
-2018/11/23 14:39:24 [notice] 30728#0: signal process started
-2018/11/23 16:25:50 [notice] 32260#0: signal process started
-2018/11/23 16:25:50 [alert] 32260#0: kill(32192, 15) failed (1: Operation not permitted)
-2018/11/23 16:25:56 [notice] 32267#0: signal process started
-2018/11/23 16:40:37 [notice] 32477#0: signal process started
-2018/11/23 16:43:50 [notice] 32523#0: signal process started
-2018/11/23 17:33:24 [notice] 33172#0: signal process started
-2018/11/23 17:33:24 [error] 33172#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/23 17:42:29 [notice] 33311#0: signal process started
-2018/11/23 17:52:45 [notice] 33538#0: signal process started
-2018/11/23 22:57:21 [emerg] 37410#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/23 22:57:21 [emerg] 37410#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/23 22:57:21 [emerg] 37410#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/23 22:57:21 [emerg] 37410#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/23 22:57:21 [emerg] 37410#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/23 22:57:21 [emerg] 37410#0: still could not bind()
-2018/11/23 22:57:29 [notice] 37420#0: signal process started
-2018/11/24 00:47:37 [notice] 38977#0: signal process started
-2018/11/24 01:23:28 [notice] 39446#0: signal process started
-2018/11/24 01:44:16 [notice] 39723#0: signal process started
-2018/11/24 01:44:16 [error] 39723#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/24 01:49:07 [notice] 39784#0: signal process started
-2018/11/24 01:58:35 [notice] 40117#0: signal process started
-2018/11/24 01:58:35 [error] 40117#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/24 02:03:22 [notice] 40198#0: signal process started
-2018/11/24 02:03:22 [error] 40198#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/24 02:05:36 [notice] 40231#0: signal process started
-2018/11/24 02:05:36 [error] 40231#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/24 02:06:08 [notice] 40249#0: signal process started
-2018/11/24 02:18:17 [notice] 40372#0: signal process started
-2018/11/24 02:18:17 [error] 40372#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/24 02:29:39 [notice] 40592#0: signal process started
-2018/11/26 01:34:40 [emerg] 42036#0: https protocol requires SSL support in /home/wgw/nginx-1.11.3/conf/nginx.conf:47
-2018/11/26 03:07:44 [notice] 50248#0: signal process started
-2018/11/26 13:20:57 [notice] 53591#0: signal process started
-2018/11/26 15:19:32 [notice] 54225#0: signal process started
-2018/11/26 15:21:32 [notice] 54272#0: signal process started
-2018/11/26 15:22:51 [notice] 54305#0: signal process started
-2018/11/26 15:23:42 [notice] 54324#0: signal process started
-2018/11/26 15:24:10 [notice] 54343#0: signal process started
-2018/11/26 15:24:14 [error] 54349#0: *25 open() "/home/wgw/nginx-1.11.3/html/linuxidc" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /linuxidc HTTP/1.1", host: "192.168.31.202"
-2018/11/26 15:24:32 [notice] 54354#0: signal process started
-2018/11/26 15:24:42 [error] 54368#0: *1 open() "/home/wgw/nginx-1.11.3/html/linuxidc" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /linuxidc HTTP/1.1", host: "192.168.31.202"
-2018/11/26 15:24:44 [error] 54368#0: *1 open() "/home/wgw/nginx-1.11.3/html/linuxidc" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /linuxidc HTTP/1.1", host: "192.168.31.202"
-2018/11/26 15:26:00 [emerg] 54432#0: invalid host in upstream "https://www.sina.com.cn/" in /home/wgw/nginx-1.11.3/conf/nginx.conf:39
-2018/11/26 15:26:19 [emerg] 54443#0: no servers are inside upstream in /home/wgw/nginx-1.11.3/conf/nginx.conf:41
-2018/11/26 15:26:30 [notice] 54446#0: signal process started
-2018/11/26 15:26:45 [emerg] 54449#0: invalid host in upstream "https://www.sina.com.cn/" in /home/wgw/nginx-1.11.3/conf/nginx.conf:39
-2018/11/26 15:28:33 [emerg] 54511#0: "proxy_pass" directive is duplicate in /home/wgw/nginx-1.11.3/conf/nginx.conf:56
-2018/11/26 15:28:49 [notice] 54514#0: signal process started
-2018/11/26 15:28:49 [error] 54514#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/26 15:29:03 [notice] 54525#0: signal process started
-2018/11/26 15:29:03 [error] 54525#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/26 15:29:19 [notice] 54528#0: signal process started
-2018/11/26 15:29:19 [error] 54528#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/26 15:33:10 [notice] 54593#0: signal process started
-2018/11/26 15:40:45 [notice] 54713#0: signal process started
-2018/11/26 15:41:56 [notice] 54735#0: signal process started
-2018/11/26 15:43:07 [notice] 54766#0: signal process started
-2018/11/26 15:43:21 [error] 54776#0: *1 open() "/home/wgw/nginx-1.11.3/html/testupstream" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /testupstream HTTP/1.1", host: "192.168.31.202"
-2018/11/26 15:44:52 [notice] 54790#0: signal process started
-2018/11/26 15:46:46 [notice] 54820#0: signal process started
-2018/11/26 15:46:59 [notice] 54831#0: signal process started
-2018/11/26 15:50:15 [notice] 54883#0: signal process started
-2018/11/26 15:50:35 [notice] 54893#0: signal process started
-2018/11/26 15:53:54 [notice] 54931#0: signal process started
-2018/11/26 15:54:50 [notice] 54954#0: signal process started
-2018/11/26 16:15:39 [emerg] 55533#0: "upstream" directive is not allowed here in /home/wgw/nginx-1.11.3/conf/nginx.conf:16
-2018/11/26 16:16:01 [notice] 55536#0: signal process started
-2018/11/26 16:17:30 [notice] 55574#0: signal process started
-2018/11/26 16:21:32 [notice] 55629#0: signal process started
-2018/11/26 16:22:53 [notice] 55652#0: signal process started
-2018/11/26 16:23:10 [error] 55663#0: *1 open() "/home/wgw/nginx-1.11.3/html/linuxidc" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /linuxidc HTTP/1.1", host: "192.168.31.202"
-2018/11/26 16:23:44 [notice] 55674#0: signal process started
-2018/11/26 16:26:24 [warn] 55751#0: load balancing method redefined in /home/wgw/nginx-1.11.3/conf/nginx.conf:41
-2018/11/26 16:26:24 [emerg] 55751#0: unknown directive "hash_method" in /home/wgw/nginx-1.11.3/conf/nginx.conf:42
-2018/11/26 16:26:45 [warn] 55754#0: load balancing method redefined in /home/wgw/nginx-1.11.3/conf/nginx.conf:41
-2018/11/26 16:26:45 [emerg] 55754#0: unknown directive "hash_method" in /home/wgw/nginx-1.11.3/conf/nginx.conf:42
-2018/11/26 16:29:16 [warn] 55821#0: load balancing method redefined in /home/wgw/nginx-1.11.3/conf/nginx.conf:41
-2018/11/26 16:29:16 [emerg] 55821#0: unknown directive "hash_method" in /home/wgw/nginx-1.11.3/conf/nginx.conf:42
-2018/11/26 16:29:37 [notice] 55824#0: signal process started
-2018/11/26 16:29:50 [notice] 55835#0: signal process started
-2018/11/26 16:30:09 [notice] 55861#0: signal process started
-2018/11/26 16:30:16 [notice] 55871#0: signal process started
-2018/11/26 16:31:24 [error] 55878#0: *2 open() "/home/wgw/nginx-1.11.3/html/test" failed (2: No such file or directory), client: 192.168.31.218, server: www.sina.com.cn, request: "GET /test HTTP/1.1", host: "192.168.31.202"
-2018/11/26 16:31:58 [notice] 55894#0: signal process started
-2018/11/26 16:32:54 [notice] 55917#0: signal process started
-2018/11/26 16:33:27 [notice] 55935#0: signal process started
-2018/11/26 16:33:46 [notice] 55949#0: signal process started
-2018/11/26 18:55:22 [notice] 57960#0: signal process started
-2018/11/26 18:56:16 [notice] 57999#0: signal process started
-2018/11/26 18:58:19 [notice] 58123#0: signal process started
-2018/11/26 18:58:19 [error] 58123#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/26 18:58:26 [notice] 58136#0: signal process started
-2018/11/26 18:58:30 [notice] 58149#0: signal process started
-2018/11/26 18:59:06 [notice] 58174#0: signal process started
-2018/11/26 19:04:12 [notice] 60838#0: signal process started
-2018/11/26 19:05:39 [notice] 60869#0: signal process started
-2018/11/26 19:07:45 [emerg] 63443#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/26 19:07:45 [emerg] 63443#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/26 19:07:45 [emerg] 63443#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/26 19:07:45 [emerg] 63443#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/26 19:08:04 [notice] 63451#0: signal process started
-2018/11/26 19:13:12 [notice] 66230#0: signal process started
-2018/11/26 23:35:05 [notice] 73822#0: signal process started
-2018/11/26 23:35:07 [notice] 73824#0: signal process started
-2018/11/26 23:35:07 [error] 73824#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/26 23:35:13 [notice] 73827#0: signal process started
-2018/11/26 23:35:13 [error] 73827#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/27 01:21:09 [notice] 75326#0: signal process started
-2018/11/27 15:04:25 [notice] 76240#0: signal process started
-2018/11/27 15:22:19 [notice] 76456#0: signal process started
-2018/11/27 17:27:44 [notice] 79405#0: signal process started
-2018/11/27 17:27:44 [error] 79405#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/27 19:30:57 [notice] 86862#0: signal process started
-2018/11/27 21:22:05 [notice] 93654#0: signal process started
-2018/11/27 21:22:05 [error] 93654#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/27 21:50:52 [notice] 95382#0: signal process started
-2018/11/27 21:50:52 [error] 95382#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/27 22:19:00 [notice] 97088#0: signal process started
-2018/11/27 22:19:00 [error] 97088#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/27 22:19:49 [notice] 97145#0: signal process started
-2018/11/27 22:19:49 [error] 97145#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/28 03:11:36 [emerg] 112988#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/28 03:11:36 [emerg] 112988#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/28 03:11:36 [emerg] 112988#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/28 03:11:36 [emerg] 112988#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/28 03:13:37 [emerg] 113130#0: unexpected "}" in /home/wgw/nginx-1.11.3/conf/nginx.conf:42
-2018/11/28 03:13:49 [emerg] 113143#0: invalid parameter "23" in /home/wgw/nginx-1.11.3/conf/nginx.conf:41
-2018/11/28 03:14:03 [notice] 113165#0: signal process started
-2018/11/28 03:14:10 [error] 113170#0: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:23/myupstream", host: "192.168.31.202"
-2018/11/28 03:15:31 [notice] 113312#0: signal process started
-2018/11/28 03:15:33 [error] 113317#0: *8 upstream sent no valid HTTP/1.0 header while reading response header from upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:22/myupstream", host: "192.168.31.202"
-2018/11/28 03:15:33 [error] 113317#0: *8 readv() failed (104: Connection reset by peer) while reading upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:22/myupstream", host: "192.168.31.202"
-2018/11/28 03:16:37 [error] 113316#0: *10 upstream sent no valid HTTP/1.0 header while reading response header from upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:22/myupstream", host: "192.168.31.202"
-2018/11/28 03:16:37 [error] 113316#0: *10 readv() failed (104: Connection reset by peer) while reading upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:22/myupstream", host: "192.168.31.202"
-2018/11/28 03:16:41 [error] 113319#0: *12 upstream sent no valid HTTP/1.0 header while reading response header from upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:22/myupstream", host: "192.168.31.202"
-2018/11/28 03:16:41 [error] 113319#0: *12 readv() failed (104: Connection reset by peer) while reading upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:22/myupstream", host: "192.168.31.202"
-2018/11/28 03:18:00 [error] 113320#0: *14 upstream sent no valid HTTP/1.0 header while reading response header from upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:22/myupstream", host: "192.168.31.202"
-2018/11/28 03:18:00 [error] 113320#0: *14 readv() failed (104: Connection reset by peer) while reading upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:22/myupstream", host: "192.168.31.202"
-2018/11/28 03:24:53 [error] 113318#0: *16 upstream sent no valid HTTP/1.0 header while reading response header from upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:22/myupstream", host: "192.168.31.202"
-2018/11/28 03:24:53 [error] 113318#0: *16 readv() failed (104: Connection reset by peer) while reading upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:22/myupstream", host: "192.168.31.202"
-2018/11/28 03:24:53 [error] 113319#0: *18 upstream sent no valid HTTP/1.0 header while reading response header from upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:22/myupstream", host: "192.168.31.202"
-2018/11/28 03:24:53 [error] 113319#0: *18 readv() failed (104: Connection reset by peer) while reading upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:22/myupstream", host: "192.168.31.202"
-2018/11/28 03:25:00 [error] 113319#0: *20 upstream sent no valid HTTP/1.0 header while reading response header from upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:22/myupstream", host: "192.168.31.202"
-2018/11/28 03:25:00 [error] 113319#0: *20 readv() failed (104: Connection reset by peer) while reading upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:22/myupstream", host: "192.168.31.202"
-2018/11/28 03:25:00 [error] 113317#0: *22 upstream sent no valid HTTP/1.0 header while reading response header from upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:22/myupstream", host: "192.168.31.202"
-2018/11/28 03:25:00 [error] 113317#0: *22 readv() failed (104: Connection reset by peer) while reading upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:22/myupstream", host: "192.168.31.202"
-2018/11/28 03:26:06 [notice] 114104#0: signal process started
-2018/11/28 03:26:12 [alert] 114108#0: 1024 worker_connections are not enough
-2018/11/28 03:26:12 [error] 114111#0: *3034 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", upstream: "http://127.0.0.1:80/myupstream", host: "linuxidc"
-2018/11/28 03:26:14 [alert] 114108#0: 1024 worker_connections are not enough
-2018/11/28 03:26:14 [error] 114110#0: *6183 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", upstream: "http://127.0.0.1:80/myupstream", host: "linuxidc"
-2018/11/28 03:26:29 [alert] 114108#0: 1024 worker_connections are not enough
-2018/11/28 03:26:29 [error] 114109#0: *9360 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", upstream: "http://127.0.0.1:80/myupstream", host: "linuxidc"
-2018/11/28 03:26:43 [alert] 114109#0: 1024 worker_connections are not enough
-2018/11/28 03:26:43 [error] 114111#0: *13755 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", upstream: "http://127.0.0.1:80/myupstream", host: "linuxidc"
-2018/11/28 03:27:34 [alert] 114109#0: 1024 worker_connections are not enough
-2018/11/28 03:27:34 [error] 114112#0: *17551 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", upstream: "http://127.0.0.1:80/myupstream", host: "linuxidc"
-2018/11/28 03:28:13 [notice] 114312#0: signal process started
-2018/11/28 03:28:18 [error] 114321#0: *17553 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:81/myupstream", host: "192.168.31.202"
-2018/11/28 03:28:22 [error] 114321#0: *17553 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:81/myupstream", host: "192.168.31.202"
-2018/11/28 03:28:22 [error] 114321#0: *17553 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:81/myupstream", host: "192.168.31.202"
-2018/11/28 03:28:22 [error] 114321#0: *17553 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:81/myupstream", host: "192.168.31.202"
-2018/11/28 03:28:23 [error] 114321#0: *17553 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:81/myupstream", host: "192.168.31.202"
-2018/11/28 03:28:24 [error] 114321#0: *17553 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:81/myupstream", host: "192.168.31.202"
-2018/11/28 03:28:25 [error] 114321#0: *17553 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", upstream: "http://127.0.0.1:81/myupstream", host: "192.168.31.202"
-2018/11/28 03:32:32 [notice] 114577#0: signal process started
-2018/11/28 03:33:42 [notice] 114654#0: signal process started
-2018/11/28 03:33:48 [error] 114662#0: *17572 open() "/home/wgw/nginx-1.11.3/html/test" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /test HTTP/1.1", host: "192.168.31.202:81"
-2018/11/28 03:33:53 [error] 114662#0: *17572 open() "/home/wgw/nginx-1.11.3/html/test" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /test HTTP/1.1", host: "192.168.31.202:81"
-2018/11/28 03:34:13 [alert] 114659#0: *20725 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", upstream: "http://127.0.0.1:81/myupstream", host: "linuxidc"
-2018/11/28 03:35:07 [notice] 114762#0: signal process started
-2018/11/28 03:35:15 [error] 114769#0: *20728 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:35:28 [error] 114765#0: *20730 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:35:30 [error] 114768#0: *20732 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:35:37 [error] 114765#0: *20734 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:35:45 [error] 114770#0: *20736 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:36:00 [error] 114763#0: *20737 open() "/home/wgw/nginx-1.11.3/html/test" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /test HTTP/1.1", host: "192.168.31.202:81"
-2018/11/28 03:36:28 [error] 114768#0: *20740 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:36:37 [error] 114765#0: *20742 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:36:38 [error] 114770#0: *20744 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:36:38 [error] 114769#0: *20746 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:36:38 [error] 114769#0: *20748 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:36:38 [error] 114769#0: *20750 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:36:38 [error] 114770#0: *20752 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:36:39 [error] 114768#0: *20754 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:36:39 [error] 114768#0: *20756 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:36:39 [error] 114768#0: *20758 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:36:39 [error] 114770#0: *20760 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:36:41 [error] 114770#0: *20762 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:37:06 [warn] 114889#0: server name "http://linuxidc" has suspicious symbols in /home/wgw/nginx-1.11.3/conf/nginx.conf:48
-2018/11/28 03:37:06 [notice] 114889#0: signal process started
-2018/11/28 03:37:17 [error] 114896#0: *20765 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: http://linuxidc, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:37:23 [error] 114897#0: *20767 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: http://linuxidc, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:37:24 [error] 114897#0: *20769 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: http://linuxidc, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:37:25 [error] 114893#0: *20771 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: http://linuxidc, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:37:25 [error] 114894#0: *20773 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: http://linuxidc, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:37:26 [error] 114896#0: *20775 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: http://linuxidc, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:37:26 [error] 114897#0: *20777 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: http://linuxidc, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:37:26 [error] 114896#0: *20779 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: http://linuxidc, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:37:27 [error] 114897#0: *20781 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: http://linuxidc, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:37:27 [error] 114897#0: *20783 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: http://linuxidc, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:37:30 [warn] 114918#0: server name "http://linuxidc" has suspicious symbols in /home/wgw/nginx-1.11.3/conf/nginx.conf:48
-2018/11/28 03:37:30 [notice] 114918#0: signal process started
-2018/11/28 03:37:34 [error] 114923#0: *20786 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: http://linuxidc, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:37:37 [error] 114923#0: *20788 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: http://linuxidc, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:38:08 [notice] 114967#0: signal process started
-2018/11/28 03:38:43 [error] 114971#0: *20792 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: www.baidu.com, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:42:06 [emerg] 115221#0: unknown directive "upstream_conn_timeout" in /home/wgw/nginx-1.11.3/conf/nginx.conf:60
-2018/11/28 03:42:34 [emerg] 115247#0: unknown directive "upstream_conn_timeout" in /home/wgw/nginx-1.11.3/conf/nginx.conf:60
-2018/11/28 03:43:45 [emerg] 115317#0: unknown directive "upstream_conn_timeout" in /home/wgw/nginx-1.11.3/conf/nginx.conf:76
-2018/11/28 03:43:54 [notice] 115328#0: signal process started
-2018/11/28 03:44:28 [error] 115336#0: *20795 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: www.baidu.com, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 03:44:48 [error] 115336#0: *20797 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 127.0.0.1, server: www.baidu.com, request: "GET /myupstream HTTP/1.0", host: "linuxidc"
-2018/11/28 14:16:00 [notice] 118788#0: signal process started
-2018/11/28 14:19:27 [notice] 119081#0: signal process started
-2018/11/28 14:20:19 [notice] 119152#0: signal process started
-2018/11/28 14:22:06 [notice] 119268#0: signal process started
-2018/11/28 14:25:14 [notice] 119572#0: signal process started
-2018/11/28 14:28:02 [notice] 119793#0: signal process started
-2018/11/28 14:35:30 [notice] 120278#0: signal process started
-2018/11/28 14:37:45 [emerg] 120465#0: unknown directive "upstream_conn_timeout" in /home/wgw/nginx-1.11.3/conf/nginx.conf:68
-2018/11/28 14:41:53 [emerg] 120716#0: unknown directive "upstream_conn_timeout" in /home/wgw/nginx-1.11.3/conf/nginx.conf:68
-2018/11/28 14:42:07 [notice] 120731#0: signal process started
-2018/11/28 14:49:11 [notice] 121155#0: signal process started
-2018/11/28 14:49:11 [error] 121155#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/28 14:49:28 [notice] 121182#0: signal process started
-2018/11/28 14:49:37 [emerg] 121193#0: unknown directive "upstream_conn_timeout" in /home/wgw/nginx-1.11.3/conf/nginx.conf:68
-2018/11/28 14:55:52 [emerg] 121622#0: unknown directive "upstream_conn_timeout" in /home/wgw/nginx-1.11.3/conf/nginx.conf:68
-2018/11/28 14:58:19 [emerg] 121801#0: unknown directive "upstream_conn_timeout" in /home/wgw/nginx-1.11.3/conf/nginx.conf:68
-2018/11/28 15:15:20 [emerg] 122874#0: unknown directive "upstream_conn_timeout" in /home/wgw/nginx-1.11.3/conf/nginx.conf:68
-2018/11/28 15:23:35 [emerg] 123363#0: unknown directive "upstream_conn_timeout" in /home/wgw/nginx-1.11.3/conf/nginx.conf:68
-2018/11/28 18:54:20 [notice] 5902#0: signal process started
-2018/11/28 18:54:38 [notice] 5934#0: signal process started
-2018/11/28 18:54:57 [notice] 5952#0: signal process started
-2018/11/28 18:54:57 [error] 5952#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/28 18:57:52 [notice] 6167#0: signal process started
-2018/11/28 18:57:52 [error] 6167#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/28 20:46:24 [notice] 12686#0: signal process started
-2018/11/28 20:46:24 [error] 12686#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
-2018/11/28 20:49:13 [error] 12735#0: *1 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", host: "192.168.31.202"
-2018/11/28 20:49:16 [error] 12735#0: *1 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", host: "192.168.31.202"
-2018/11/28 20:49:17 [error] 12735#0: *1 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", host: "192.168.31.202"
-2018/11/28 20:49:17 [error] 12735#0: *1 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", host: "192.168.31.202"
-2018/11/28 20:49:18 [error] 12735#0: *1 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", host: "192.168.31.202"
-2018/11/28 20:49:18 [error] 12735#0: *1 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", host: "192.168.31.202"
-2018/11/28 20:49:18 [error] 12735#0: *1 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", host: "192.168.31.202"
-2018/11/28 20:49:23 [notice] 12873#0: signal process started
-2018/11/28 20:49:31 [emerg] 12883#0: bind() to 0.0.0.0:81 failed (98: Address already in use)
-2018/11/28 20:49:31 [emerg] 12883#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/28 20:49:31 [emerg] 12883#0: bind() to 0.0.0.0:81 failed (98: Address already in use)
-2018/11/28 20:49:31 [emerg] 12883#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/28 20:49:31 [emerg] 12883#0: bind() to 0.0.0.0:81 failed (98: Address already in use)
-2018/11/28 20:49:31 [emerg] 12883#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/28 20:49:31 [emerg] 12883#0: bind() to 0.0.0.0:81 failed (98: Address already in use)
-2018/11/28 20:49:31 [emerg] 12883#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/28 20:49:36 [notice] 12888#0: signal process started
-2018/11/28 20:49:37 [notice] 12891#0: signal process started
-2018/11/28 20:49:38 [emerg] 12894#0: bind() to 0.0.0.0:81 failed (98: Address already in use)
-2018/11/28 20:49:38 [emerg] 12894#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/28 20:49:38 [emerg] 12894#0: bind() to 0.0.0.0:81 failed (98: Address already in use)
-2018/11/28 20:49:38 [emerg] 12894#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/28 20:49:38 [emerg] 12894#0: bind() to 0.0.0.0:81 failed (98: Address already in use)
-2018/11/28 20:49:38 [emerg] 12894#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
-2018/11/28 20:50:51 [error] 13069#0: *1 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", host: "192.168.31.202"
-2018/11/28 20:50:51 [error] 13069#0: *1 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", host: "192.168.31.202"
-2018/11/28 20:50:53 [error] 13069#0: *1 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", host: "192.168.31.202"
-2018/11/28 20:50:54 [error] 13069#0: *1 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", host: "192.168.31.202"
-2018/11/28 20:50:54 [error] 13069#0: *1 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", host: "192.168.31.202"
-2018/11/28 20:50:54 [error] 13069#0: *1 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", host: "192.168.31.202"
-2018/11/28 20:50:54 [error] 13069#0: *1 open() "/home/wgw/nginx-1.11.3/html/myupstream" failed (2: No such file or directory), client: 192.168.31.218, server: localhost, request: "GET /myupstream HTTP/1.1", host: "192.168.31.202"
-2018/11/28 21:12:40 [notice] 14533#0: signal process started
-2018/11/28 21:12:44 [notice] 14538#0: signal process started
-2018/11/28 21:13:45 [emerg] 14619#0: unknown directive "upstream_test" in /home/wgw/nginx-1.11.3/conf/nginx.conf:68
-2018/11/28 21:14:49 [emerg] 14700#0: unknown directive "upstream_test" in /home/wgw/nginx-1.11.3/conf/nginx.conf:68
-2018/11/28 21:14:51 [emerg] 14703#0: unknown directive "upstream_test" in /home/wgw/nginx-1.11.3/conf/nginx.conf:68
-2018/11/28 21:14:52 [emerg] 14706#0: unknown directive "upstream_test" in /home/wgw/nginx-1.11.3/conf/nginx.conf:68
-2018/11/28 21:15:36 [emerg] 14762#0: unknown directive "upstream_test" in /home/wgw/nginx-1.11.3/conf/upstream.conf:13
+2018/11/29 05:15:25 [notice] 24181#0: signal process started
+2018/11/29 05:15:25 [error] 24181#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
+2018/11/29 05:15:50 [notice] 24208#0: signal process started
+2018/11/29 05:34:20 [notice] 25440#0: signal process started
+2018/11/29 05:34:28 [notice] 25457#0: signal process started
+2018/11/29 05:35:36 [notice] 25544#0: signal process started
+2018/11/29 05:36:12 [notice] 25588#0: signal process started
+2018/11/29 05:36:41 [notice] 25632#0: signal process started
+2018/11/29 05:36:58 [notice] 25660#0: signal process started
+2018/11/29 05:37:53 [notice] 25722#0: signal process started
+2018/11/29 05:37:53 [error] 25722#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
+2018/11/29 05:38:01 [notice] 25740#0: signal process started
+2018/11/29 05:39:04 [notice] 25830#0: signal process started
+2018/11/29 05:39:04 [error] 25830#0: open() "/home/wgw/nginx-1.11.3/logs/nginx.pid" failed (2: No such file or directory)
+2018/11/29 05:47:57 [notice] 26795#0: using inherited sockets from "22:16000:16500:16600"
+2018/11/29 05:47:57 [emerg] 26795#0: invalid socket number "16600" in NGINX environment variable, ignoring
+2018/11/29 05:47:57 [crit] 26795#0: getsockname() of the inherited socket #22 failed (9: Bad file descriptor)
+2018/11/29 05:47:57 [crit] 26795#0: getsockname() of the inherited socket #16000 failed (9: Bad file descriptor)
+2018/11/29 05:47:57 [crit] 26795#0: getsockname() of the inherited socket #16500 failed (9: Bad file descriptor)
+2018/11/29 05:47:57 [emerg] 26795#0: close() socket listening socket on  failed (9: Bad file descriptor)
+2018/11/29 05:47:57 [emerg] 26795#0: close() socket listening socket on  failed (9: Bad file descriptor)
+2018/11/29 05:47:57 [emerg] 26795#0: close() socket listening socket on  failed (9: Bad file descriptor)
+2018/11/29 05:49:33 [notice] 26954#0: using inherited sockets from "22"
+2018/11/29 05:49:33 [emerg] 26954#0: invalid socket number "22" in NGINX environment variable, ignoring
+2018/11/29 05:50:41 [notice] 27053#0: using inherited sockets from "55034"
+2018/11/29 05:50:41 [emerg] 27053#0: invalid socket number "55034" in NGINX environment variable, ignoring
+2018/11/29 05:52:13 [notice] 27145#0: using inherited sockets from "55034"
+2018/11/29 05:52:13 [emerg] 27145#0: invalid socket number "55034" in NGINX environment variable, ignoring
+2018/11/29 05:53:48 [notice] 27246#0: using inherited sockets from "55034"
+2018/11/29 05:53:48 [emerg] 27246#0: invalid socket number "55034" in NGINX environment variable, ignoring
+2018/11/29 05:54:58 [notice] 27317#0: using inherited sockets from "55034;"
+2018/11/29 05:56:05 [notice] 27426#0: using inherited sockets from "55034;"
+2018/11/29 05:56:05 [crit] 27426#0: getsockname() of the inherited socket #55034 failed (9: Bad file descriptor)
+2018/11/29 05:56:05 [emerg] 27426#0: close() socket listening socket on  failed (9: Bad file descriptor)
+2018/11/29 05:56:22 [notice] 27457#0: using inherited sockets from "22;"
+2018/11/29 05:56:22 [crit] 27457#0: getsockname() of the inherited socket #22 failed (9: Bad file descriptor)
+2018/11/29 05:56:22 [emerg] 27457#0: close() socket listening socket on  failed (9: Bad file descriptor)
+2018/11/29 05:56:50 [notice] 27507#0: using inherited sockets from "22;"
+2018/11/29 05:56:50 [crit] 27507#0: getsockname() of the inherited socket #22 failed (9: Bad file descriptor)
+2018/11/29 05:56:50 [emerg] 27507#0: close() socket listening socket on  failed (9: Bad file descriptor)
+2018/11/29 06:14:18 [notice] 28905#0: signal process started
+2018/11/29 09:21:46 [notice] 29520#0: signal process started
+2018/11/29 09:21:52 [notice] 29535#0: signal process started
+2018/11/29 09:25:16 [notice] 29768#0: signal process started
+2018/11/29 09:34:01 [notice] 30340#0: signal process started
+2018/11/29 09:38:29 [notice] 30719#0: signal process started
+2018/11/29 09:41:55 [notice] 30941#0: signal process started
+2018/11/29 09:41:55 [alert] 30941#0: kill(30747, 15) failed (3: No such process)
+2018/11/29 09:41:59 [notice] 30946#0: signal process started
+2018/11/29 09:41:59 [alert] 30946#0: kill(30747, 15) failed (3: No such process)
+2018/11/29 09:55:51 [emerg] 31829#0: the shared memory zone "mycache" is already declared for a different use in /home/wgw/nginx-1.11.3/conf/nginx.conf:40
+2018/11/29 09:56:25 [emerg] 31860#0: the shared memory zone "mycache" is already declared for a different use in /home/wgw/nginx-1.11.3/conf/nginx.conf:40
+2018/11/29 09:57:22 [emerg] 31919#0: the same path name "/home/wgw/nginx-1.11.3/proxy_temp" used in /home/wgw/nginx-1.11.3/conf/nginx.conf:39 and in /home/wgw/nginx-1.11.3/conf/nginx.conf:135
+2018/11/29 09:58:00 [emerg] 31961#0: the same path name "/home/wgw/nginx-1.11.3/proxy_temp" used in /home/wgw/nginx-1.11.3/conf/nginx.conf:39 and in /home/wgw/nginx-1.11.3/conf/nginx.conf:135
+2018/11/29 09:58:58 [emerg] 32059#0: the same path name "/home/wgw/nginx-1.11.3/proxy_temp" used in /home/wgw/nginx-1.11.3/conf/nginx.conf:39 and in /home/wgw/nginx-1.11.3/conf/nginx.conf:135
+2018/11/29 09:59:45 [emerg] 32108#0: the same path name "/home/wgw/nginx-1.11.3/fastcgi_temp" used in /home/wgw/nginx-1.11.3/conf/nginx.conf:40 and in /home/wgw/nginx-1.11.3/conf/nginx.conf:135
+2018/11/29 10:00:01 [notice] 32124#0: signal process started
+2018/11/29 10:00:01 [alert] 32124#0: kill(30747, 15) failed (3: No such process)
+2018/11/30 01:21:27 [notice] 5716#0: signal process started
+2018/11/30 01:23:33 [notice] 5768#0: signal process started
+2018/11/30 01:23:33 [notice] 5769#0: using inherited sockets from "6;7;"
+2018/11/30 01:24:01 [notice] 5785#0: signal process started
+2018/11/30 01:24:08 [notice] 5789#0: signal process started
+2018/11/30 01:24:22 [notice] 5795#0: signal process started
+2018/11/30 01:24:26 [notice] 5807#0: signal process started
+2018/11/30 01:24:44 [notice] 5826#0: signal process started
+2018/11/30 01:24:44 [notice] 5827#0: using inherited sockets from "6;7;"
+2018/11/30 01:36:15 [notice] 6046#0: signal process started
+2018/11/30 01:36:15 [notice] 6047#0: using inherited sockets from "6;7;"
+2018/11/30 02:13:30 [notice] 6614#0: signal process started
+2018/11/30 02:13:30 [notice] 6615#0: using inherited sockets from "6;7;"
+2018/11/30 02:15:04 [notice] 6660#0: using inherited sockets from "6;7;"
+2018/11/30 02:16:05 [notice] 6702#0: using inherited sockets from "6;7;"
+2018/11/30 02:18:29 [notice] 6794#0: using inherited sockets from "6;7;"
+2018/11/30 02:19:15 [notice] 6830#0: using inherited sockets from "6;7;"
+2018/11/30 02:21:03 [notice] 6888#0: using inherited sockets from "6;7;"
+2018/11/30 02:21:29 [notice] 6919#0: using inherited sockets from "6;7;"
+2018/11/30 02:22:01 [notice] 6942#0: using inherited sockets from "6;7;"
+2018/11/30 02:22:29 [notice] 6972#0: using inherited sockets from "6;7;"

@@ -795,6 +795,7 @@ ngx_get_options(int argc, char *const *argv)
 
                 if (ngx_strcmp(ngx_signal, "stop") == 0
                     || ngx_strcmp(ngx_signal, "quit") == 0
+		    || ngx_strcmp(ngx_signal, "restart") == 0
                     || ngx_strcmp(ngx_signal, "reopen") == 0
                     || ngx_strcmp(ngx_signal, "reload") == 0)
                 {

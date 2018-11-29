@@ -64,7 +64,7 @@ ngx_signal_t  signals[] = {
 
     { ngx_signal_value(NGX_CHANGEBIN_SIGNAL),
       "SIG" ngx_value(NGX_CHANGEBIN_SIGNAL),
-      "",
+      "restart",
       ngx_signal_handler },
 
     { SIGALRM, "SIGALRM", "", ngx_signal_handler },
@@ -628,3 +628,4 @@ ngx_os_signal_process(ngx_cycle_t *cycle, char *name, ngx_pid_t pid)
 
     return 1;
 }
+
